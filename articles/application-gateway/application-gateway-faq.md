@@ -154,6 +154,9 @@ Yes. You can set up connection draining to change members within a backend pool 
 
 Yes.
 
+### How long does it take for the v2 SKU to autoscale operation to complete?
+It will typically take 6 to 7 minutes for an autoscale action to complete once triggered. 
+
 ## Configuration
 
 ### Is Application Gateway always deployed in a virtual network?
