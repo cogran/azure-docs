@@ -201,6 +201,10 @@ Azure Bastion currently doesn't support timezone redirection and isn't timezone 
 
 Yes, existing sessions on the target Bastion resource will disconnect during maintenance on the Bastion resource. 
 
+### <a name="tls13"></a>Does Bastion support TLS 1.3?
+
+No, Bastion currently only supports TLS 1.2. 
+
 ## <a name="peering"></a>VNet peering FAQs
 
 ### Can I still deploy multiple Bastion hosts across peered virtual networks?
